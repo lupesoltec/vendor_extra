@@ -18,6 +18,10 @@ LOCAL_PATH := vendor/extra
 PRODUCT_PACKAGES += \
     Gboard
 
+# Gcamgo
+PRODUCT_PACKAGES += \
+    Gcamgo
+
 # Mi Remote Controller
 PRODUCT_PACKAGES += \
     MiRemoteController
