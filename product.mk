@@ -14,21 +14,13 @@
 
 LOCAL_PATH := vendor/extra
 
-# Default input method apps
+#HedgeCam
 PRODUCT_PACKAGES += \
-    Gboard
-
-# Gcamgo
-PRODUCT_PACKAGES += \
-    Gcamgo
+    HedgeCam
 
 # Mi Remote Controller
 PRODUCT_PACKAGES += \
     MiRemoteController
-
-# OPScreenRecorder
-PRODUCT_PACKAGES += \
-    OPScreenRecorder
 
 # SemcMusic
 PRODUCT_PACKAGES += \
@@ -41,19 +33,3 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/system/framework/com.sony.device.jar:system/framework/com.sony.device.jar \
     $(LOCAL_PATH)/system/framework/com.sony.sysinfo.jar:system/framework/com.sony.sysinfo.jar \
     $(LOCAL_PATH)/system/framework/com.sonyericsson.system.jar:system/framework/com.sonyericsson.system.jar \
-
-# Lawnchair
-PRODUCT_PACKAGES += \
-    Lawnchair
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/etc/permissions/privapp-permissions-lawnchair.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-lawnchair.xml \
-    $(LOCAL_PATH)/system/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
-
-# Dex preopt
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    Lawnchair
-
-PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay/common
-
