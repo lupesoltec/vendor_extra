@@ -14,10 +14,6 @@
 
 LOCAL_PATH := vendor/extra
 
-#HedgeCam
-PRODUCT_PACKAGES += \
-    HedgeCam
-
 # Mi Remote Controller
 PRODUCT_PACKAGES += \
     MiRemoteController
