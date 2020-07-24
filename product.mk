@@ -14,22 +14,6 @@
 
 LOCAL_PATH := vendor/extra
 
-#HedgeCam
-PRODUCT_PACKAGES += \
-    HedgeCam
-
 # Mi Remote Controller
 PRODUCT_PACKAGES += \
     MiRemoteController
-
-# SemcMusic
-PRODUCT_PACKAGES += \
-    SemcMusic
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/system/etc/permissions/com.sony.device.xml:system/etc/permissions/com.sony.device.xml \
-    $(LOCAL_PATH)/system/etc/permissions/com.sony.sysinfo.xml:system/etc/permissions/com.sony.sysinfo.xml \
-    $(LOCAL_PATH)/system/etc/permissions/com.sonyericsson.system.xml:system/etc/permissions/com.sonyericsson.system.xml \
-    $(LOCAL_PATH)/system/framework/com.sony.device.jar:system/framework/com.sony.device.jar \
-    $(LOCAL_PATH)/system/framework/com.sony.sysinfo.jar:system/framework/com.sony.sysinfo.jar \
-    $(LOCAL_PATH)/system/framework/com.sonyericsson.system.jar:system/framework/com.sonyericsson.system.jar \
