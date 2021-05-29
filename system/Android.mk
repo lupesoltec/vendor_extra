@@ -17,7 +17,7 @@ include $(call all-subdir-makefiles)
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := MiRemoteController
+LOCAL_MODULE := MiXplorer
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := priv-app/$(LOCAL_MODULE).apk
 LOCAL_CERTIFICATE := PRESIGNED

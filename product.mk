@@ -16,4 +16,4 @@ LOCAL_PATH := vendor/extra
 
 # Mi Remote Controller
 PRODUCT_PACKAGES += \
-    MiRemoteController
+    MiXplorer
